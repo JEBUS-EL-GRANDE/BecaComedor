@@ -82,16 +82,14 @@ El sistema cuenta con **4 roles** con portales independientes:
 
 ```bash
 #dentro del proyecto (cd BecaComedor)
-php --ini		                                #para buscar el php.ini descomenta la bd que usaras
-composer install
-#composer update --ignore-platform-reqs	    #(si da error el composer install)
-cp .env.example .env					              #crear el .env y configuralo
-npm install                                 #instala todas las dependencia JS (leyendolas del archivo package.json)
-php artisan key:generate                    #genera la clave de aplicacion de Laravel
-php artisan migrate					                #migrar las tablas a la bd
-npm run build
+php --ini                                       #para buscar el php.ini descomenta la bd que usaras
+composer install                                #instalar composer
+#composer update --ignore-platform-reqs         #(si da error el composer install)
+cp .env.example .env                            #crear el .env y configuralo
+php artisan key:generate                        #genera la clave de aplicacion de Laravel
+php artisan migrate                             #migrar las tablas a la bd  
 
-php artisan serve                           #Iniciar el servidor
+php artisan serve                               #Iniciar el servidor
 ```
 
 <h3  style="color: blue; font-size: 50px">Instalacion en Windows: <img src="readMeIMG/windows.svg" width="20" height="20"></h3> 
@@ -104,18 +102,18 @@ cd BecaComedor
 <h3>instalacion en Arch linux: <img src="readMeIMG/arch-linux.svg" width="20" height="20"></h3>
 
 ```bash
-sudo pacman -S php                          #instalar php
-sudo pacman -S composer                     #instalar composer
+sudo pacman -S php                              #instalar php
+sudo pacman -S composer                         #instalar composer
 ```
 
 <h3> Instalacion en debian: <img src="readMeIMG/debian.svg" width="20" height="20"></h3>
 
 ```bash
 sudo apt install php php-cli php-mysql php-mbstring php-xml php-curl php-zip
-sudo apt install composer                    # Instalar Composer
+sudo apt install composer                       #Instalar Composer
 ```
 
-<h3> crea usuario admin en tu BASE DE DATOS : <img src="readMeIMG/mariadb.svg" width="20" height="20"></h3>
+<h3> crea usuario admin en tu BASE DE DATOS : <img src="readMeIMG/mariadb.svg" width="20" height="20"> <img src="readMeIMG/postgresql.svg" width="20" height="20"></h3>
 
 ```bash
 INSERT INTO personas (nombre, apellido, contrasena, sexo, ci, rol)
