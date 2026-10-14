@@ -2,6 +2,8 @@
 
 Sistema web para la gestión del comedor universitario de la **U.A.G.R.M.**, desarrollado como proyecto de la materia **Sistemas de Información 1 (INF-342)**. Permite administrar la asistencia de estudiantes al comedor, gestionar tipos de beca, horarios de servicio, y controlar el acceso de personal administrativo, encargados y personal de cocina.
 
+***Al tratarse este de mi primer proyecto en laravel, este aun tiene algunos errores, y aun tiene demasido margen de mejora, probablemente haga otro proyecto siminar como una v2 mejorado de forma exponencial:***
+
 ### Proyecto compilado
 ![video de proyecto ya compilado](readMeIMG/Becav1.gif "video de mi proyecto ya compilado")
 
