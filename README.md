@@ -115,6 +115,7 @@ sudo apt install composer                       #Instalar Composer
 ```
 
 <h3> crea usuario admin en tu BASE DE DATOS : <img src="readMeIMG/mariadb.svg" width="20" height="20"> <img src="readMeIMG/postgresql.svg" width="20" height="20"></h3>
+con este usuario podras crear al resto de usuarios que tienen roles:
 
 ```bash
 INSERT INTO personas (nombre, apellido, contrasena, sexo, ci, rol)
