@@ -1,4 +1,4 @@
-# BecaComedor — Sistema de Gestion del Comedor Universitario
+<h1 id="descripcionA"> BecaComedor — Sistema de Gestion del Comedor Universitario</h1>
 
 Sistema web para la gestión del comedor universitario de la **U.A.G.R.M.**, desarrollado como proyecto de la materia **Sistemas de Información 1 (INF-342)**. Permite administrar la asistencia de estudiantes al comedor, gestionar tipos de beca, horarios de servicio, y controlar el acceso de personal administrativo, encargados y personal de cocina.
 
@@ -6,6 +6,12 @@ Sistema web para la gestión del comedor universitario de la **U.A.G.R.M.**, des
 
 ### Proyecto compilado
 ![video de proyecto ya compilado](readMeIMG/Becav1.gif "video de mi proyecto ya compilado")
+
+## Informacion directa
+- [Instalacion](#InstalacionA)
+- [Descripcion breve](#descripcionA)
+- [Modelo de base de datos](#basededatosA)
+- [tipos de Roles](#rolesA)
 
 ## Stack Tecnológico usado
 
@@ -26,7 +32,7 @@ El sistema tiene dos frentes:
 
 1. **Blade + Bootstrap** — usado por los paneles de administracion, encargado, cocina y asistencia publica. Son vistas renderizadas del lado del servidor.
 
-## Roles del Sistema
+<h2 id="rolesA">Roles del Sistema</h2>
 
 El sistema cuenta con **4 roles** con portales independientes:
 
@@ -75,12 +81,12 @@ El sistema cuenta con **4 roles** con portales independientes:
 
 ---
 
-<h2 id="Configuracion2">tabla de base de datos relacional: </h2> 
+<h2 id="basededatosA">tabla de base de datos relacional: </h2> 
 
 <img src="readMeIMG/BD.png">
 
 ---
-<h2 id="Instalacion">Instalación Y Configuración local en diferentes Sistemas Operativos:</h2>
+<h2 id="InstalacionA">Instalación Y Configuración local en diferentes Sistemas Operativos:</h2>
 
 ```bash
 #dentro del proyecto (cd BecaComedor)
