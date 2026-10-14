@@ -96,8 +96,9 @@ php artisan serve                               #Iniciar el servidor
 
 ```bash
 # 1. Clonar el repositorio
-git clone <repo-url>
+git clone https://github.com/JEBUS-EL-GRANDE/BecaComedor.git
 cd BecaComedor
+#busca y descarga php (.zip) de la web oficial y composer e instalalos
 ```
 <h3>instalacion en Arch linux: <img src="readMeIMG/arch-linux.svg" width="20" height="20"></h3>
 
